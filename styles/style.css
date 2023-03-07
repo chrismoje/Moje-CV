@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;700&family=Roboto:wght@100;300;400&display=swap');
+
+ /* INDEX SECTION */
+
+body {
+    background-color: rgb(20,20,20);
+    color: rgb(255,255,255);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+header ul{
+    display: flex;
+    padding: 10px 10px 50px 10px;
+    width: 150px;
+    justify-items: center;
+    justify-content: space-between;
+
+}
+
+li{
+    list-style: none;
+    margin: 5px 10px;
+}
+
+
+
+h1{
+    font-size: 160px;
+    font-weight: 700;
+    margin: 0px;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section-initial{
+    margin-top: 17vh;
+    text-align:center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100vw;
+   
+}
+
+.sub-pages-footer{
+    position: relative;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+
+footer ul{
+    display: flex;
+    padding: 10px 10px 50px 10px;
+    margin: 10px 10px 5px 5px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.social-links{
+    width: 100px;
+    height: 320px;
+    background-color: blueviolet;
+    border-radius: 30px 0 0 30px;
+    position: fixed;
+    right: 0;
+    top:27vh;
+}
+
+
+
+.social-links svg{
+width: 100px;
+height: 100px;
+fill: rgb(255,255,255);
+
+}
+
+@media only screen and (max-width:600px){
+    .social-links{
+        display: none;
+    }
+}
+
+
+/* WORK SECTION */
+
+
+.Work-Experience{
+    width: 80%;
+}
+
+.Work-Experience td {
+    padding: 30px;
+}
+
+@media only screen and (max-width:600px){
+    .Work-Experience{
+        width: 100%;
+    }
+    td {
+        padding: 5px;
+    }
+}
+
+
+
+/* ABOUT ME SECTION */
+
+
+.about-me{
+    width: 60vw;
+    text-align: center;
+}
+
+.about-me img{
+    
+    height: 300px;
+    border-radius: 50%;
+    margin: 40px 10px 10px 10px;
+ }
+ 
+ .mySkills{
+    width: 80%;
+ }
+ .mySkills td {
+    padding: 30px;
+    font-style: italic;
+ }
+
+ /* CONTACT SECTION */
+
+ .form-submit{
+    width: 50%;
+
+ }
+ .form-submit form{
+    width: 100%;
+ }
+
+ .form-submit .form-row{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .form-row .form-control{
+    width: 50%;
+    
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+
+ }
+
+ 
+ .form-row .form-control:focus,     /* THIS SHOULD WORK,BUT I AM NOT SURE WHY ITS NOT WORKING ON MICROSOFT EDGE */
+ .form-submit textarea:focus {
+    outline: 0;
+    background-color: darkorange;
+
+ }
+
+ .form-submit textarea{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    resize: none;
+    margin-top: 5px;
+    padding: 20px 0px;
+
+ }
+
+ button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    background-color:#51bd51;
+    color: rgb(255,255,255);
+    border: none;
+    padding: 20px;
+ }
+
+ @media only screen and (max-width:600px){
+    .form-submit{
+        width: 80%;
+    }
+
+    .form-submit .form-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-row .form-control{
+        width: 100%;
+        margin-top: 5px;
+    }
+ }
+
+  /* PROJECT SECTION */
+
+  .projects {
+    width: 80%;
+  }
+
+  .projects td {
+    padding: 30px;
+    font-style: italic;
+  }
+
+  @media only screen and (max-width:600px){
+    .projects{
+        width: 100%;
+    }
+    td {
+        padding: 5px;
+    }
+}

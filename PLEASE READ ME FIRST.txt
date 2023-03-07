@@ -1,0 +1,3 @@
+Sir,
+Since this project is consisting of multiple pages, I suggest to run it on a Live Server, drag and dropping it to a google browser would not do me a justice on my effort.
+Thanks
